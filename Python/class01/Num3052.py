@@ -10,17 +10,6 @@ Level:
 Name:
   thelight0804
 """
-standard_input = """39
-40
-41
-42
-43
-44
-82
-83
-84
-85
-"""
 
 #input num
 a = [int(input()) for i in range (10)]
@@ -37,15 +26,17 @@ for i in range(10):
 
 print(len(remain))
 
-# #input num
-# a = [int(input()) for i in range (10)]
-# arr = []
+"""
+#input num
+a = [int(input()) for i in range (10)]
+arr = []
 
-# #input div remain to arr
-# for i in range(10):
-#   arr.append(a[i] % 42)
+#input div remain to arr
+for i in range(10):
+  arr.append(a[i] % 42)
 
-# #set array
-# remain = set(arr)
+#set array
+remain = set(arr)
 
-# print(len(remain))
+print(len(remain))
+"""
