@@ -10,7 +10,7 @@ Level:
 Name:
   thelight0804
 """
-standard_input='baaa'
+# standard_input='Mississipi'
 
 #input String
 word = input()
@@ -24,6 +24,7 @@ setWord = list(set(word))
 #alphabet count
 cnt = []
 
+#count word alphabet
 for i in setWord:
   cnt.append(word.count(i))
 
