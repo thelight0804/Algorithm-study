@@ -10,7 +10,7 @@ Level:
 Name:
   thelight0804
 """
-standard_input = '3 2 1'
+# standard_input = '3 2 1'
 
 #input a, b, c
 num = list(map(int, input().split()))
