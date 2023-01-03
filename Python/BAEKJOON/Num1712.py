@@ -1,6 +1,6 @@
 """
 Date:
-  22.12.14
+  22.01.02
 Title:
   BAEKJOON 1712번
 Project:
