@@ -10,10 +10,10 @@ Level:
 Name:
   thelight0804
 """
-# standard_input = """3
-# happy
-# new
-# year"""
+standard_input = """3
+happy
+new
+year"""
 
 #input test case and words
 test = int(input())
@@ -30,6 +30,8 @@ for _ in range(test):
     if(word[i] != word[i+1]):
       cutWord = word[i+1:] #create new cut word
       same += cutWord.count(word[i])
+      if (cutWord.count(word[i]) > 0):
+        break
   #group word
   if(same == 0):
     cnt += 1
