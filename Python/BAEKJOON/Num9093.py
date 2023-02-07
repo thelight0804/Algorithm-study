@@ -36,4 +36,3 @@ for _ in range(test):
       print(stack.pop(), end="") #pop stack
     print(" ", end="")
 """
-
