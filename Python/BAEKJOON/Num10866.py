@@ -10,22 +10,22 @@ Level:
 Name:
   thelight0804
 """
-standard_input = """15
-push_back 1
-push_front 2
-front
-back
-size
-empty
-pop_front
-pop_back
-pop_front
-size
-empty
-pop_back
-push_front 3
-empty
-front"""
+# standard_input = """15
+# push_back 1
+# push_front 2
+# front
+# back
+# size
+# empty
+# pop_front
+# pop_back
+# pop_front
+# size
+# empty
+# pop_back
+# push_front 3
+# empty
+# front"""
 
 import sys
 from collections import deque
