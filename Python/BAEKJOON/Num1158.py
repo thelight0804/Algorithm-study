@@ -10,8 +10,8 @@ Level:
 Name:
   thelight0804
 """
-standard_input = """7 3"""
-#<3, 6, 2, 7, 5, 1, 4>
+# standard_input = """7 3"""
+# #<3, 6, 2, 7, 5, 1, 4>
 
 n, k = map(int, input().split())
 
