@@ -38,18 +38,15 @@ for _ in range(m):
 
   if cmd[0] == 'L':
     # move curser left
-    if len(a) != 0:
-      b.append(a.pop())
+    if a: b.append(a.pop())
   
   if cmd[0] == 'D':
     # move curser right
-    if len(b) != 0:
-      a.append(b.pop())
+    if b: a.append(b.pop())
   
   if cmd[0] == 'B':
     # delete character
-    if len(a) != 0:
-      a.pop()
+    if a: a.pop()
   
   if cmd[0] == 'P':
     # add character
