@@ -32,3 +32,17 @@ for _ in range(n):
 
   #calculate LCM
   print(int(a * b / gcd))
+
+
+### use math.lcm
+"""
+import math
+
+#input test case
+n = int(input())
+
+for _ in range(n):
+  #input a, b
+  a, b = map(int, input().split())
+  print(math.lcm(a, b))
+"""
