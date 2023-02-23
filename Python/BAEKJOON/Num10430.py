@@ -10,11 +10,11 @@ Level:
 Name:
   thelight0804
 """
-standard_input = """5 8 4"""
-#1 (A+B)%C
-#1 ((A%C) + (B%C))%C
-#0 (A×B)%C
-#0 ((A%C) × (B%C))%C
+# standard_input = """5 8 4"""
+# #1 (A+B)%C
+# #1 ((A%C) + (B%C))%C
+# #0 (A×B)%C
+# #0 ((A%C) × (B%C))%C
 
 a, b, c = map(int, input().split())
 
