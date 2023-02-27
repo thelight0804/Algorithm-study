@@ -10,8 +10,8 @@ Level:
 Name:
   thelight0804
 """
-standard_input = """25"""
-# 2
+# standard_input = """25"""
+# # 2
 
 
 
