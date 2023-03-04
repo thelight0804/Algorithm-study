@@ -10,8 +10,8 @@ Level:
 Name:
   thelight0804
 """
-standard_input = """804"""
-# 4
+# standard_input = """804"""
+# # 4
 
 
 
