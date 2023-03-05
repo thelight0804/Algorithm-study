@@ -5,6 +5,8 @@ Title:
     Programmers 알고리즘 문제 해설 3번
 Project:
     나머지 한 점
+Name:
+    thelight0804
 """
 def solution(v):
     answer = []

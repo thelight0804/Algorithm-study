@@ -10,7 +10,7 @@ Level:
 Name:
   thelight0804
 """
-# standard_input = """10"""
+# standard_input = """20"""
 # # 3
 
 import sys

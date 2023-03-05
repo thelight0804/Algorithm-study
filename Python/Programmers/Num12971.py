@@ -5,6 +5,10 @@ Title:
     Programmers 알고리즘 문제 해설 6번
 Project:
     스티커 모으기
+Level:
+    Lv. 3
+Name:
+    thelight0804
 """
 def solution(sticker):
     #스티커가 단 하나일 때

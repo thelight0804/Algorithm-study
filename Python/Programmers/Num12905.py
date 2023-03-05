@@ -5,6 +5,10 @@ Title:
     Programmers 알고리즘 문제 해설 4번
 Project:
     가장 큰 정사각형 찾기
+Level:
+    Lv. 2
+Name:
+    thelight0804
 """
 def solution(board):
     answer = 0

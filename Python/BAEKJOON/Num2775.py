@@ -1,55 +1,39 @@
 """
 Date:
-  23.01.21
+  23.01.14
 Title:
   BAEKJOON 2775번
 Project:
-  2007년
+  부녀회장이 될테야
 Level:
   Bronze 1
 Name:
   thelight0804
 """
-standard_input = """12 1"""
+# standard_input = """2
+# 1
+# 3
+# 2
+# 3"""
+# # 35
 
-month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-week = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"]
-day = 0
+#input test case
+test = int(input())
 
-#input month, day
-a, b = map(int, input().split())
+# roop test case
+for i in range(test):
+  #input floor and room number
+  floor = int(input())
+  num = int(input())
 
-# add day of month
-for i in range(a-1):
-  day += month[i]
+  # residents in room
+  res = [n for n in range(1, num+1)]
 
-# add input day
-day = (day+b)%7
-print(week[day])
-
-
-
-
-
-# #input month and day
-# month, day = map(int, input().split())
-
-# # Jan, Feb
-# if(month == 1):
-#   print(week[(day%7)])
-# elif(month == 2):
-#   if(day < 4):
-#     day += 3
-#   # avoid list index out of range
-#   else:
-#     day -= 4
-#   print(week[(day%7)])
-# else:
-#   # as month pass, add 2 or 3 days space
-#   for i in range(2, month):
-#     if(i == 3 or i == 5 or i == 7
-#       or i == 8 or i == 10 or i == 12):
-#       day += 3
-#     else:
-#       day += 2
-#   print(week[(day+1)%7])
+  # up to floor
+  for j in range(floor):
+    for k in range(1, num):
+      # add residents
+      res[k] += res[k-1]
+    
+  #print result
+  print(res[-1])
