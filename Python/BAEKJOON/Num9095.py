@@ -10,11 +10,11 @@ Level:
 Name:
   thelight0804
 """
-standard_input = """3
-4
-7
-10"""
-# 7 44 274
+# standard_input = """3
+# 4
+# 7
+# 10"""
+# # 7 44 274
 
 #input testcase
 t = int(input())
