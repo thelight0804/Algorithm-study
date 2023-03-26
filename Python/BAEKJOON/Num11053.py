@@ -5,9 +5,9 @@ project: 가장 긴 증가하는 부분 수열
 level: Silver 2
 author: thelight0804
 """
-standard_input = """6
-10 20 10 30 20 50"""
-# 4
+# standard_input = """6
+# 10 20 10 30 20 50"""
+# # 4
 
 #input a
 a = int(input())
