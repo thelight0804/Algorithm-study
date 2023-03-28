@@ -5,8 +5,9 @@ project: 연속합
 level: Silver 2
 author: thelight0804
 """
-# standard_input = """5
-# -1 -2 -3 -4 -5"""
+# standard_input = """10
+# 10 -4 3 1 5 6 -35 12 21 -1
+# """
 # # 33
 
 #input
