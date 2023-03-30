@@ -2,7 +2,7 @@
 date: 23.03.29
 problem: BAEKJOON 11052
 project: 카드 구매하기
-level: Silver 2
+level: Silver 1
 author: thelight0804
 """
 # standard_input = """4
