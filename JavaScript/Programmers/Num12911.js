@@ -18,9 +18,9 @@ Author:
  * @returns 변환된 2진수의 1의 개수
  */
 function countOne(a){
-  var binary = a.toString(2).split(''); //2
+  var binary = a.toString(2).split('');
   var count = 0; //1 count
-  for(var i = 0; i < binary.length; i++){ //3
+  for(var i = 0; i < binary.length; i++){
       if (binary[i] === '1') count ++;
   }
   return count;
@@ -31,9 +31,9 @@ function solution(n) {
 
   //add number + 1
   while(true){
-      answer ++; //1
+      answer ++;
        //check same 1 count
-      if(countOne(n) === countOne(answer)) //4
+      if(countOne(n) === countOne(answer))
           return answer;
   }
 }
