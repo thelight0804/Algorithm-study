@@ -49,5 +49,5 @@ class Solution(object):
       result.append(str(carry))
 
     #output answer
-    answer.reverse()    
-    return ''.join(answer)
+    result.reverse()    
+    return ''.join(result)
