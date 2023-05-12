@@ -11,6 +11,7 @@ Name:
   thelight0804
 """
 
+#### use hash table
 class Solution(object):
   def isAnagram(self, s, t):
     """
@@ -43,3 +44,15 @@ class Solution(object):
     
     #match anagram
     return True
+
+#### use sort
+class Solution(object):
+  def isAnagram(self, s, t):
+    """
+    :type s: str
+    :type t: str
+    :rtype: bool
+    """
+    if len(s) != len(t): return False
+    elif sorted(s) != sorted(t): return False
+    else: return True
