@@ -11,7 +11,7 @@ Name:
   thelight0804
 """
 
- class Solution(object):
+class Solution(object):
   def fizzBuzz(self, n):
     """
     :type n: int
