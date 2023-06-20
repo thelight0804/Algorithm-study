@@ -46,7 +46,6 @@ class MyQueue(object):
     """
     :rtype: bool
     """
-    # print(len(self.queue))
     return len(self.queue) == 0
 
 
