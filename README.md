@@ -16,8 +16,13 @@
 
 주 1회 온라인 또는 오프라인 모임을 통해 자신이 공부한 내용을 바탕으로 지식을 공유하고, 함께 문제를 해결해 나가면서 스터디 부원끼리 다함께 목표를 향해 갑니다.
 
-### 🗓️ GDSC 스터디 기간
-> 2022/03/28 ~ 
+> GDSC 스터디 기간
+
+2022/03/28 ~ 2023/02/16
+
+2023/02/16 ~ 개인 학습 진행중
 
 ## 문제 풀이
+<a href="https://leetcode.com/problemset/all/">LeetCode </a> / <a href="https://school.programmers.co.kr/learn/challenges">programmers </a>
+
 <a href="https://www.acmicpc.net/">Baekjoon Online Judge </a> / <a href="https://solved.ac/class">solved.ac </a> 
