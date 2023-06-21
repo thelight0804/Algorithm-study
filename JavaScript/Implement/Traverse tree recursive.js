@@ -1,8 +1,6 @@
 /*
 Date:
   2023.06.21
-Number:
-  LeetCode 232
 Title:
   Traverse tree recursive
 Author:
