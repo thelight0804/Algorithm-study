@@ -34,7 +34,7 @@ node2.right = node5;
 node3.left = node6;
 node3.right = node7;
 
-
+console.group("treeLevelPrint");
 function treeLevelPrint(node){
   if(node === null) return
 
@@ -54,5 +54,41 @@ function treeLevelPrint(node){
     }
   }
 }
-
 treeLevelPrint(node1); //1 2 3 4 5 6 7
+console.groupEnd("treeLevelPrint");
+
+console.group("treeLevelNewLinePrint");
+function treeLevelNewLinePrint(node){
+  if(!node) return;
+
+  var queue = [];
+  queue.push(node);
+
+  while(queue.length > 0){
+    var count = queue.length; //set count
+    for(var i = 0; i < count; i++){
+      //print count
+      crntNode = queue.shift();
+      console.log(crntNode.val);
+      if(crntNode.left)
+        queue.push(crntNode.left);
+      if(crntNode.right)
+        queue.push(crntNode.right);
+    }
+    console.log("----"); //new line
+  }
+}
+treeLevelNewLinePrint(node1);
+console.groupEnd("treeLevelNewLinePrint");
+/*
+1
+----
+2
+3
+----
+4
+5
+6
+7
+----
+*/
