@@ -1,4 +1,4 @@
-# Algorithm-study <a href="https://www.notion.so/thelight0804/PSS-92453957ca9c447f9fb979da3bf3fd73" target="Notion"><img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white"/></a>
+# Algorithm-study <a href="https://www.notion.so/thelight0804/Problem-solving-748279af32564475a8eb35521ad87410?pvs=4" target="Notion"><img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white"/></a>
 
 
 ## PSS (Problem Soliving Study)
