@@ -29,12 +29,12 @@ var merge = function(nums1, m, nums2, n) {
         let num2 = nums2[idx2];
 
         if(num1 >= num2){
-            nums1[idx3] = nums1[idx1];
+            nums1[idx3] = num1;
             idx1--;
             idx3--;
         }
         else if(num1 < num2 || idx1 < 0){
-            nums1[idx3] = nums2[idx2];
+            nums1[idx3] = num2;
             idx2--;
             idx3--; 
         }
