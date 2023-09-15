@@ -20,5 +20,5 @@ var climbStairs = function(n) {
         b = tmp;
     }
     
-    return n > 0 ? a : 1;
+    return a;
 };
