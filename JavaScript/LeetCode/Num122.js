@@ -13,7 +13,7 @@
 var maxProfit = function(prices) {
     var profit = 0;
 
-    for (var i = 0; i < prices.length; i++){
+    for (var i = 1; i < prices.length; i++){
         var prev = prices[i - 1]; // last price
         var current = prices[i]; // current price
 
