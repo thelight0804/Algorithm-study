@@ -211,3 +211,5 @@ cython_debug/
 Icon
 .vscode
 Note.xlsx
+~$note.xlsx
+tree.drawio
