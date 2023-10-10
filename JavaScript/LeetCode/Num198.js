@@ -25,7 +25,7 @@ var rob = function(nums) {
     // dynamic programming
     for (var i = 3; i < nums.length; i++){
         // set max of nums[i-2], nums[i-3]
-        nums[i] = Math.max(nums[i] + nums[i - 2], nums[i] + nums[i - 3]);
+        nums[i] += Math.max(nums[i - 2], nums[i - 3]);
     }
 
     // return maximum amount of money
