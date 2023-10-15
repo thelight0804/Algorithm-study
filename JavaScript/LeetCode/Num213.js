@@ -41,9 +41,6 @@ var rob = function (nums) {
     // get maximum money of plan1
     var money2 = Math.max(plan2[plan2.length - 2], plan2[plan2.length - 1]);
 
-    console.log(plan1)
-    console.log(plan2)
-
     // return maximum money of plan1 or plan2
     return Math.max(money1, money2);
 };
