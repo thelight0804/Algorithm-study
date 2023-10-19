@@ -31,7 +31,6 @@ function mergeSort(arr){
     var sortedArr = [];
     // 두 배열 모두 존재할 때까지 반복
     while (left.length && right.length){
-        console.log("sortedArr=", sortedArr);
         // 왼쪽 요소 추가
         if (left[0] <= right[0]){
             sortedArr.push(left.shift());
