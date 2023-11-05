@@ -24,5 +24,13 @@
 
 ## 문제 풀이
 <a href="https://leetcode.com/problemset/all/">LeetCode </a> / <a href="https://school.programmers.co.kr/learn/challenges">programmers </a>
+<br><br>
+ <a href="https://leetcode.com/thelight0804/">
+  <img src="https://leetcode.card.workers.dev/thelight0804?theme=nord&font=baloo&extension=null" alt="LeetCode Stats" width="420">
+ </a>
 
 <a href="https://www.acmicpc.net/">Baekjoon Online Judge </a> / <a href="https://solved.ac/class">solved.ac </a> 
+ <br><br>
+ <a href="https://solved.ac/profile/thelight0804">
+  <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=thelight0804" alt="LeetCode Stats" width="350">
+ </a>
